@@ -1,10 +1,10 @@
 import MovieCard from "../MovieCard/MovieCard";
 import movies from "../../data/movies.json";
-
+import styles from "./MovieList.module.css"
 
 export default function MovieList() {
   return (
-    <div>
+    <div className={styles.result}>
       {movies.map((movie) => (
         <MovieCard
           key={movie.id}
