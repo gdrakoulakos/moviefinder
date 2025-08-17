@@ -43,7 +43,9 @@ export default function MovieList({ typedTitle }) {
 
   return (
     <>
-      {filteredMovies && (
+      {filteredMovies.length === 0 ? (
+        <span className={styles.loadingSpinner}></span>
+      ) : (
         <div className={styles.result}>
           {filteredMovies.map((filteredMovie) => (
             <MovieCard
