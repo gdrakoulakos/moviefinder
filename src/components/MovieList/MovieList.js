@@ -21,21 +21,23 @@ export default function MovieList({ typedTitle }) {
   }, [typedTitle]);
 
   return (
-    filteredMovies && (
-      <div className={styles.result}>
-        {filteredMovies.map((filteredMovie) => (
-          <MovieCard
-            key={filteredMovie.id}
-            title={filteredMovie.title}
-            category={filteredMovie.category}
-            year={filteredMovie.year}
-            rating={filteredMovie.rating}
-            length_minutes={filteredMovie.length_minutes}
-            age_restriction={filteredMovie.age_restriction}
-            poster_name={filteredMovie.poster_name}
-          />
-        ))}
-      </div>
-    )
+    <>
+      {filteredMovies && (
+        <div className={styles.result}>
+          {filteredMovies.map((filteredMovie) => (
+            <MovieCard
+              key={filteredMovie.id}
+              title={filteredMovie.title}
+              category={filteredMovie.category}
+              year={filteredMovie.year}
+              rating={filteredMovie.rating}
+              length_minutes={filteredMovie.length_minutes}
+              age_restriction={filteredMovie.age_restriction}
+              poster_name={filteredMovie.poster_name}
+            />
+          ))}
+        </div>
+      )}
+    </>
   );
 }

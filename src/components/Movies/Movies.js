@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import styles from "./SearchBar.module.css";
+import styles from "./Movies.module.css";
 import MovieList from "../MovieList/MovieList";
 
 export default function SearchBar() {

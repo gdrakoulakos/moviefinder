@@ -1,11 +1,11 @@
 import styles from "./page.module.css";
-import SearchBar from "@/components/SearchBar/SearchBar";
+import Movies from "@/components/Movies/Movies";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <h1>Movie Finder!</h1>
-      <SearchBar />
+      <Movies />
     </div>
   );
 }
