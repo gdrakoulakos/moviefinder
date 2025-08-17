@@ -12,7 +12,7 @@ export default function MovieList({ typedTitle }) {
   const moviesPerPage = 5;
 
   useEffect(() => {
-    const pagesCounter = Math.round(movies.length / moviesPerPage);
+    const pagesCounter = Math.ceil(movies.length / moviesPerPage);
     let pagesArray = [];
     for (let i = 1; i <= pagesCounter; i++) {
       pagesArray = [...pagesArray, i];
@@ -43,11 +43,6 @@ export default function MovieList({ typedTitle }) {
 
   return (
     <>
-      <Pagination
-        pages={pages}
-        currentPage={currentPage}
-        setCurrentPage={setCurrentPage}
-      />
       {filteredMovies && (
         <div className={styles.result}>
           {filteredMovies.map((filteredMovie) => (
@@ -66,6 +61,11 @@ export default function MovieList({ typedTitle }) {
           ))}
         </div>
       )}
+      <Pagination
+        pages={pages}
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
     </>
   );
 }

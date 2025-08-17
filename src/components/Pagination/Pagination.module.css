@@ -11,6 +11,10 @@
   margin: 5px;
   font-size: 15px;
   border: solid gray 2px;
-  border-radius: 3px;
+  border-radius: 5px;
   align-content: center;
+}
+
+.clicked {
+  background-color: #5b5b5b;
 }

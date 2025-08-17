@@ -198,5 +198,15 @@
     "length_minutes": 140,
     "age_restriction": "R",
     "poster_name": "saving-private-ryan.jpeg"
+  },
+  {
+    "id": 21,
+    "title": "The Intouchables",
+    "category": "Drama",
+    "year": 2011,
+    "rating": 8.5,
+    "length_minutes": 112,
+    "age_restriction": "R",
+    "poster_name": "the-intouchables.jpg"
   }
 ]

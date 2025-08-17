@@ -8,7 +8,9 @@ export default function Pagination({ pages, currentPage, setCurrentPage }) {
       {pages.map((page) => (
         <div
           key={page}
-          className={styles.pageButton}
+          className={`${styles.pageButton} ${
+            currentPage === page ? styles.clicked : ""
+          }`}
           onClick={() => setCurrentPage(page)}
         >
           {page}
