@@ -3,14 +3,35 @@ import MovieCard from "../MovieCard/MovieCard";
 import movies from "../../data/movies.json";
 import styles from "./MovieList.module.css";
 import { useEffect, useState } from "react";
+import Pagination from "../Pagination/Pagination";
 
 export default function MovieList({ typedTitle }) {
   const [filteredMovies, setFilteredMovies] = useState([]);
+  const [pages, setPages] = useState([]);
+  const [currentPage, setCurrentPage] = useState(1);
+  const moviesPerPage = 5;
+
+  useEffect(() => {
+    const pagesCounter = Math.round(movies.length / moviesPerPage);
+    let pagesArray = [];
+    for (let i = 1; i <= pagesCounter; i++) {
+      pagesArray = [...pagesArray, i];
+    }
+    setPages(pagesArray);
+  }, [movies]);
 
   useEffect(() => {
     if (!movies) return;
     if (typedTitle.length < 3) {
-      setFilteredMovies(movies);
+      if (currentPage) {
+        let filteredOnPage = movies.slice(
+          (currentPage - 1) * 5,
+          currentPage * 5
+        );
+        console.log("filteredOnPage", filteredOnPage);
+
+        setFilteredMovies(filteredOnPage);
+      }
     }
     if (typedTitle.length >= 3) {
       const filtered = movies.filter((movie) =>
@@ -18,10 +39,15 @@ export default function MovieList({ typedTitle }) {
       );
       setFilteredMovies(filtered);
     }
-  }, [typedTitle]);
+  }, [typedTitle, currentPage]);
 
   return (
     <>
+      <Pagination
+        pages={pages}
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
       {filteredMovies && (
         <div className={styles.result}>
           {filteredMovies.map((filteredMovie) => (
@@ -34,6 +60,8 @@ export default function MovieList({ typedTitle }) {
               length_minutes={filteredMovie.length_minutes}
               age_restriction={filteredMovie.age_restriction}
               poster_name={filteredMovie.poster_name}
+              currentPage={currentPage}
+              setCurrentPage={setCurrentPage}
             />
           ))}
         </div>
