@@ -1,6 +1,8 @@
 .searchBar {
-  width: 350px;
+  width: 320px;
   height: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   border-radius: 10px;
+  background-color: rgb(233, 233, 233);
+  font-size: 15px;
 }
