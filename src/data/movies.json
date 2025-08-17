@@ -3,120 +3,180 @@
     "id": 1,
     "title": "Inception",
     "category": "Sci-Fi",
-    "year": 2010
+    "year": 2010,
+    "rating": 7.6,
+    "length_minutes": 130,
+    "age_restriction": "PG-13"
   },
   {
     "id": 2,
     "title": "The Dark Knight",
     "category": "Action",
-    "year": 2008
+    "year": 2008,
+    "rating": 9.5,
+    "length_minutes": 160,
+    "age_restriction": "G"
   },
   {
     "id": 3,
     "title": "Forrest Gump",
     "category": "Drama",
-    "year": 1994
+    "year": 1994,
+    "rating": 9.1,
+    "length_minutes": 150,
+    "age_restriction": "G"
   },
   {
     "id": 4,
     "title": "The Matrix",
     "category": "Sci-Fi",
-    "year": 1999
+    "year": 1999,
+    "rating": 7.5,
+    "length_minutes": 160,
+    "age_restriction": "NC-17"
   },
   {
     "id": 5,
     "title": "Gladiator",
     "category": "Action",
-    "year": 2000
+    "year": 2000,
+    "rating": 6.7,
+    "length_minutes": 100,
+    "age_restriction": "R"
   },
   {
     "id": 6,
     "title": "Titanic",
     "category": "Drama",
-    "year": 1997
+    "year": 1997,
+    "rating": 8.3,
+    "length_minutes": 180,
+    "age_restriction": "R"
   },
   {
     "id": 7,
     "title": "The Shawshank Redemption",
     "category": "Drama",
-    "year": 1994
+    "year": 1994,
+    "rating": 8.2,
+    "length_minutes": 180,
+    "age_restriction": "NC-17"
   },
   {
     "id": 8,
     "title": "Avengers: Endgame",
     "category": "Action",
-    "year": 2019
+    "year": 2019,
+    "rating": 8.9,
+    "length_minutes": 130,
+    "age_restriction": "G"
   },
   {
     "id": 9,
     "title": "Interstellar",
     "category": "Sci-Fi",
-    "year": 2014
+    "year": 2014,
+    "rating": 7.9,
+    "length_minutes": 130,
+    "age_restriction": "PG"
   },
   {
     "id": 10,
     "title": "Deadpool",
     "category": "Comedy",
-    "year": 2016
+    "year": 2016,
+    "rating": 7.9,
+    "length_minutes": 180,
+    "age_restriction": "G"
   },
   {
     "id": 11,
     "title": "The Prestige",
     "category": "Drama",
-    "year": 2006
+    "year": 2006,
+    "rating": 8.9,
+    "length_minutes": 160,
+    "age_restriction": "G"
   },
   {
     "id": 12,
     "title": "Guardians of the Galaxy",
     "category": "Comedy",
-    "year": 2014
+    "year": 2014,
+    "rating": 8.3,
+    "length_minutes": 150,
+    "age_restriction": "PG-13"
   },
   {
     "id": 13,
     "title": "Mad Max: Fury Road",
     "category": "Action",
-    "year": 2015
+    "year": 2015,
+    "rating": 7.9,
+    "length_minutes": 150,
+    "age_restriction": "G"
   },
   {
     "id": 14,
     "title": "Blade Runner 2049",
     "category": "Sci-Fi",
-    "year": 2017
+    "year": 2017,
+    "rating": 7.6,
+    "length_minutes": 180,
+    "age_restriction": "PG-13"
   },
   {
     "id": 15,
-    "title": "Jumanji: Welcome to the Jungle",
+    "title": "Jumanji",
     "category": "Comedy",
-    "year": 2017
+    "year": 2017,
+    "rating": 8.5,
+    "length_minutes": 150,
+    "age_restriction": "PG"
   },
   {
     "id": 16,
     "title": "Fight Club",
     "category": "Drama",
-    "year": 1999
+    "year": 1999,
+    "rating": 8,
+    "length_minutes": 180,
+    "age_restriction": "NC-17"
   },
   {
     "id": 17,
     "title": "Iron Man",
     "category": "Action",
-    "year": 2008
+    "year": 2008,
+    "rating": 8,
+    "length_minutes": 110,
+    "age_restriction": "G"
   },
   {
     "id": 18,
     "title": "The Martian",
     "category": "Sci-Fi",
-    "year": 2015
+    "year": 2015,
+    "rating": 8.7,
+    "length_minutes": 170,
+    "age_restriction": "R"
   },
   {
     "id": 19,
     "title": "Superbad",
     "category": "Comedy",
-    "year": 2007
+    "year": 2007,
+    "rating": 8.1,
+    "length_minutes": 180,
+    "age_restriction": "R"
   },
   {
     "id": 20,
     "title": "Saving Private Ryan",
     "category": "Drama",
-    "year": 1998
+    "year": 1998,
+    "rating": 7,
+    "length_minutes": 140,
+    "age_restriction": "R"
   }
 ]

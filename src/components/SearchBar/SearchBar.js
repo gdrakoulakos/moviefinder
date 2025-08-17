@@ -1,9 +1,24 @@
+"use client";
+import { useState } from "react";
+import styles from "./SearchBar.module.css";
+import MovieList from "../MovieList/MovieList";
 
+export default function SearchBar() {
+  const [typedTitle, setTypedTitle] = useState("");
 
-export default function SearchBar ()  {
-    return(
-        <div>
-            <h1>Hello</h1>
-        </div>
-    )
+  const handleTypedTitle = (e) => {
+    setTypedTitle(e.target.value);
+  };
+
+  return (
+    <div>
+      <input
+        className={styles.searchBar}
+        placeholder="Search a movie..."
+        value={typedTitle}
+        onChange={handleTypedTitle}
+      ></input>
+      <MovieList typedTitle={typedTitle} />
+    </div>
+  );
 }
