@@ -9,7 +9,7 @@ export default function MovieList({ typedTitle }) {
   const [filteredMovies, setFilteredMovies] = useState([]);
   const [pages, setPages] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const moviesPerPage = 5;
+  const moviesPerPage = 4;
 
   useEffect(() => {
     const pagesCounter = Math.ceil(movies.length / moviesPerPage);
@@ -25,8 +25,8 @@ export default function MovieList({ typedTitle }) {
     if (typedTitle.length < 3) {
       if (currentPage) {
         let filteredOnPage = movies.slice(
-          (currentPage - 1) * 5,
-          currentPage * 5
+          (currentPage - 1) * moviesPerPage,
+          currentPage * moviesPerPage
         );
         console.log("filteredOnPage", filteredOnPage);
 
