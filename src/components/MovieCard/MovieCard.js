@@ -8,12 +8,13 @@ export default function MovieCard({
   rating,
   length_minutes,
   age_restriction,
+  poster_name,
 }) {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.cardLeft}>
         <Image
-          src="/movieIcon.png"
+          src={`/movies-posters/${poster_name}`}
           width={90}
           height={90}
           alt="Picture of the movie"

@@ -35,6 +35,8 @@ export default function MovieList({ typedTitle }) {
             rating={filteredMovie.rating}
             length_minutes={filteredMovie.length_minutes}
             age_restriction={filteredMovie.age_restriction}
+            poster_name={filteredMovie.poster_name}
+
           />
         ))}
       </div>

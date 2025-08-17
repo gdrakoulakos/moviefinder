@@ -6,7 +6,8 @@
     "year": 2010,
     "rating": 7.6,
     "length_minutes": 130,
-    "age_restriction": "PG-13"
+    "age_restriction": "PG-13",
+    "poster_name": "inception.png"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "year": 2008,
     "rating": 9.5,
     "length_minutes": 160,
-    "age_restriction": "G"
+    "age_restriction": "G",
+    "poster_name": "the-dark-knight.jpg"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "year": 1994,
     "rating": 9.1,
     "length_minutes": 150,
-    "age_restriction": "G"
+    "age_restriction": "G",
+    "poster_name": "forrest-gump.jpeg"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "year": 1999,
     "rating": 7.5,
     "length_minutes": 160,
-    "age_restriction": "NC-17"
+    "age_restriction": "NC-17",
+    "poster_name": "the-matrix.jpg"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "year": 2000,
     "rating": 6.7,
     "length_minutes": 100,
-    "age_restriction": "R"
+    "age_restriction": "R",
+    "poster_name": "gladiator.jpeg"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "year": 1997,
     "rating": 8.3,
     "length_minutes": 180,
-    "age_restriction": "R"
+    "age_restriction": "R",
+    "poster_name": "titanic.jpeg"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "year": 1994,
     "rating": 8.2,
     "length_minutes": 180,
-    "age_restriction": "NC-17"
+    "age_restriction": "NC-17",
+    "poster_name": "the-shawshank-redemption.jpeg"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "year": 2019,
     "rating": 8.9,
     "length_minutes": 130,
-    "age_restriction": "G"
+    "age_restriction": "G",
+    "poster_name": "avengers-endgame.jpeg"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "year": 2014,
     "rating": 7.9,
     "length_minutes": 130,
-    "age_restriction": "PG"
+    "age_restriction": "PG",
+    "poster_name": "interstellar.jpeg"
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "year": 2016,
     "rating": 7.9,
     "length_minutes": 180,
-    "age_restriction": "G"
+    "age_restriction": "G",
+    "poster_name": "deadpool.png"
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
     "year": 2006,
     "rating": 8.9,
     "length_minutes": 160,
-    "age_restriction": "G"
+    "age_restriction": "G",
+    "poster_name": "the-prestige.jpg"
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
     "year": 2014,
     "rating": 8.3,
     "length_minutes": 150,
-    "age_restriction": "PG-13"
+    "age_restriction": "PG-13",
+    "poster_name": "guardians-of-the-galaxy.jpeg"
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "year": 2015,
     "rating": 7.9,
     "length_minutes": 150,
-    "age_restriction": "G"
+    "age_restriction": "G",
+    "poster_name": "mad-max-fury-road.jpeg"
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "year": 2017,
     "rating": 7.6,
     "length_minutes": 180,
-    "age_restriction": "PG-13"
+    "age_restriction": "PG-13",
+    "poster_name": "blade-runner-2049.jpeg"
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@
     "year": 2017,
     "rating": 8.5,
     "length_minutes": 150,
-    "age_restriction": "PG"
+    "age_restriction": "PG",
+    "poster_name": "jumanji.jpg"
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@
     "year": 1999,
     "rating": 8,
     "length_minutes": 180,
-    "age_restriction": "NC-17"
+    "age_restriction": "NC-17",
+    "poster_name": "fight-club.jpg"
   },
   {
     "id": 17,
@@ -150,7 +166,8 @@
     "year": 2008,
     "rating": 8,
     "length_minutes": 110,
-    "age_restriction": "G"
+    "age_restriction": "G",
+    "poster_name": "iron-man.jpeg"
   },
   {
     "id": 18,
@@ -159,7 +176,8 @@
     "year": 2015,
     "rating": 8.7,
     "length_minutes": 170,
-    "age_restriction": "R"
+    "age_restriction": "R",
+    "poster_name": "the-martian.jpeg"
   },
   {
     "id": 19,
@@ -168,7 +186,8 @@
     "year": 2007,
     "rating": 8.1,
     "length_minutes": 180,
-    "age_restriction": "R"
+    "age_restriction": "R",
+    "poster_name": "superbad.jpeg"
   },
   {
     "id": 20,
@@ -177,6 +196,7 @@
     "year": 1998,
     "rating": 7,
     "length_minutes": 140,
-    "age_restriction": "R"
+    "age_restriction": "R",
+    "poster_name": "saving-private-ryan.jpeg"
   }
 ]
