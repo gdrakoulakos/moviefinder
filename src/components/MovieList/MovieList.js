@@ -19,9 +19,6 @@ export default function MovieList({ typedTitle }) {
       setFilteredMovies(filtered);
     }
   }, [typedTitle]);
-  console.log("typedTitle.length", typedTitle.length);
-
-  console.log("filteredMovie", filteredMovies);
 
   return (
     filteredMovies && (
@@ -36,7 +33,6 @@ export default function MovieList({ typedTitle }) {
             length_minutes={filteredMovie.length_minutes}
             age_restriction={filteredMovie.age_restriction}
             poster_name={filteredMovie.poster_name}
-
           />
         ))}
       </div>

@@ -16,7 +16,7 @@ export default function MovieCard({
         <Image
           src={`/movies-posters/${poster_name}`}
           width={90}
-          height={90}
+          height={100}
           alt="Picture of the movie"
           className={styles.movieImage}
         />
