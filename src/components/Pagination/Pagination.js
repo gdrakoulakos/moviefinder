@@ -1,8 +1,6 @@
 import styles from "./Pagination.module.css";
 
 export default function Pagination({ pages, currentPage, setCurrentPage }) {
-  console.log("currentPage", currentPage);
-
   return (
     <div className={styles.pageButtonsContainer}>
       {pages.map((page) => (
