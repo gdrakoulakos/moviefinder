@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-import Movies from "@/components/Movies/Movies";
+import Movies from "@/components/Templates/Movies/Movies";
 
 export default function Home() {
   return (

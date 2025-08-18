@@ -1,9 +1,9 @@
 "use client";
-import MovieCard from "../MovieCard/MovieCard";
-import movies from "../../data/movies.json";
+import MovieCard from "../../Molecules/MovieCard/MovieCard";
+import movies from "../../../data/movies.json";
 import styles from "./MovieList.module.css";
 import { useEffect, useState } from "react";
-import Pagination from "../Pagination/Pagination";
+import Pagination from "../../Molecules/Pagination/Pagination";
 
 export default function MovieList({ typedTitle }) {
   const [filteredMovies, setFilteredMovies] = useState([]);

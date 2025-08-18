@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import styles from "./Movies.module.css";
-import MovieList from "../MovieList/MovieList";
+import MovieList from "../../Organisms/MovieList/MovieList";
 
 export default function SearchBar() {
   const [typedTitle, setTypedTitle] = useState("");
